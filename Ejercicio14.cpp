@@ -4,6 +4,9 @@
 using namespace std;
 
 int main() {
+    // Este programa realiza la división mediante restas sucesivas
+    // El cociente representa cuántas veces se puede restar el divisor al dividendo
+
     int dividendo, divisor, cociente = 0;
 
     cout << "Ingrese el dividendo: ";
