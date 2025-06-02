@@ -5,12 +5,18 @@
 using namespace std;
 
 int main(){
-	int num;
+    int num;
     // Repetir la lectura mientras el número ingresado sea mayor o igual a 0
     do {
         // Solicita al usuario que ingrese un número
         cout << "Ingrese un numero: ";
         cin >> num;
+
+        // Validación adicional (informativa) si se ingresa un número negativo
+        if (num < 0) {
+            cout << "Número negativo detectado, se finalizará la captura." << endl;
+        }
+
     } while (num >= 0); // Si el número es negativo, termina el ciclo
 
     // Mensaje de finalización
