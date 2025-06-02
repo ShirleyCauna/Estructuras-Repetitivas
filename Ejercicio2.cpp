@@ -1,4 +1,5 @@
 //2. Leer números por teclado hasta introducir uno negativo; en ese momento imprimir “Fin de la captura” y terminar.
+// Nota: Este programa no valida entradas no numéricas. Si el usuario ingresa texto en lugar de un número, el comportamiento será inesperado.
 
 #include<iostream>
 using namespace std;
